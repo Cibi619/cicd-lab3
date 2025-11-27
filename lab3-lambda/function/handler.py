@@ -2,5 +2,5 @@ def handler(event, context):
     print("Event received: ", event)
     return {
         "statusCode": 200,
-        "body": "Hello from CDK Lambda v2!"
+        "body": "Hello from CDK Lambda"
     }
